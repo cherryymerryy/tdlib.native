@@ -5,3 +5,7 @@ bin/
 obj/
 
 *.temp.txt
+/vcpkg
+windows/CMakeCache.txt
+windows/CMakeFiles/cmake.check_cache
+/.cache
