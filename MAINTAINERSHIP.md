@@ -1,6 +1,13 @@
 tdlib.native Maintainership
 ===========================
 
+Building a New Version (Windows)
+---------------------
+1. Clone vcpkg in to C:/ (`https://github.com/microsoft/vcpkg.git`)
+2. Execute command in vcpkg folder `.\bootstrap-vcpkg.bat`
+3. After setting up vcpkg run `install.ps1` from `tdlib.native/windows` folder
+4. Run `build.ps1`, in the VcpkgToolchain set path `your_path/vcpkg/buildsystems/vcpkg.cmake`
+
 Publish a New Version
 ---------------------
 
